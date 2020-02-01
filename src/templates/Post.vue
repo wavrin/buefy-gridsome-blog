@@ -1,14 +1,14 @@
 <template>
   <section class="section">
-    <a class="icon" href="/">
-      <i class="fa fa-arrow-left fa-2x"></i>
-    </a>
     <div class="container">
       <div class="columns is-desktop">
         <div class="column is-one-quarter is-narrow">
           <AuthorCard />
         </div>
         <div class="column">
+          <a class="icon" href="/">
+            <i class="fa fa-arrow-left fa-2x"></i>
+          </a>
           <h1 class="title">{{ $page.post.title }}</h1>
           <em>{{ $page.post.date }}</em>
           <div class="content" v-html="$page.post.content" />

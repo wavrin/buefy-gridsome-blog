@@ -8,7 +8,9 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <p class="title is-4">Christopher Wavrin</p>
+          <a class="plain" href="/">
+            <p class="title is-4">Christopher Wavrin</p>
+          </a>
           <a class="icon" href="https://twitter.com/wavrin">
             <i class="fab fa-twitter fa-2x"></i>
           </a>&nbsp;
