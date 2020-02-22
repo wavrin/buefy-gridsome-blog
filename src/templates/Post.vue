@@ -14,7 +14,7 @@
           <div class="content" v-html="$page.post.content" />
 
           <div class="post-comments">
-            <vue-disqus shortname="wavrin" :identifier="$page.post.title"></vue-disqus>
+            <vue-disqus shortname="DISQUSSHORTNAME" :identifier="$page.post.title"></vue-disqus>
           </div>
         </div>
       </div>

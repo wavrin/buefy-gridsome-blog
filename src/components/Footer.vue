@@ -3,7 +3,7 @@
     <div class="content has-text-centered">
       <p>
         Copyright © {{ new Date().getFullYear() }}. Powered by
-        <a href="//gridsome.org">Gridsome</a> | <g-link to="/uses">Uses</g-link>
+        <a href="//gridsome.org">Gridsome</a>
       </p>
     </div>
   </footer>

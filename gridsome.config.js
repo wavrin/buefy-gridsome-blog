@@ -5,10 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Christopher Wavrin",
-  siteUrl: "https://wavrin.com",
-  siteDescription:
-    "Personal Website of Christopher Wavrin. Discussion of technology and software development.",
+  siteName: "Website Name",
+  siteUrl: "#",
+  siteDescription: "Description of your Website.",
 
   templates: {
     Post: "/:title"
@@ -26,7 +25,7 @@ module.exports = {
     {
       use: "@gridsome/plugin-google-analytics",
       options: {
-        id: "UA-42536217-1"
+        id: "UA-XXXXXXXXXXX"
       }
     },
     {
