@@ -1,6 +1,6 @@
 ---
-title: Example Blog Post
-date: 2020-01-01
+title: Example Blog Post Three
+date: 2020-01-03
 published: true
 canonical_url: false
 description: "This is an example blog post. After updating this post with real content, you can copy the file to create new blog posts. Markdown works!"
