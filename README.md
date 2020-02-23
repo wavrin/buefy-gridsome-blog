@@ -59,3 +59,5 @@ Example:
 ## Deploy
 
 Great options for hosting include [Netlify](https://www.netlify.com/) and [AWS Amplify](https://aws.amazon.com/amplify/).
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/wavrin/buefy-gridsome-blog)
