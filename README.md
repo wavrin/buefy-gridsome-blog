@@ -55,3 +55,7 @@ Example:
     <i class="fab fa-twitter fa-2x"></i>
   </a>
 ```
+
+## Deploy
+
+Great options for hosting include [Netlify](https://www.netlify.com/) and [AWS Amplify](https://aws.amazon.com/amplify/).
