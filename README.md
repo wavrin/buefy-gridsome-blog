@@ -16,7 +16,7 @@
 
 ### Google Analytics
 
-In your `gridsome.config.js` files, add your own Google Analytics id:
+In the `gridsome.config.js` file, add your own Google Analytics id:
 
 ```
   {
@@ -26,9 +26,9 @@ In your `gridsome.config.js` files, add your own Google Analytics id:
     }
 ```
 
-### Discus (for comments)
+### Disqus (for comments)
 
-In your `post.vue` template, add your own Disqus shortname:
+In the `Post.vue` template, add your own [Disqus](https://disqus.com/) shortname:
 
 ```
   <div class="post-comments">
@@ -46,7 +46,9 @@ You can find a new font [here](https://fonts.google.com/) and update that file.
 
 ### Icons
 
-The Author's card `AuthorCard.vue` uses icons from [Font Awesome](https://fontawesome.com/icons).
+The `AuthorCard.vue` component uses icons from [Font Awesome](https://fontawesome.com/icons).
+
+Example:
 
 ```
   <a class="icon" href="#">
