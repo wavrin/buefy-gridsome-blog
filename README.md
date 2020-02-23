@@ -1,5 +1,9 @@
 # Simple blog using Gridsome and Buefy
 
+## Demo
+
+https://vuefy-gridsome-blog.netlify.com/
+
 ## Install
 
 ### Gridsome CLI:
