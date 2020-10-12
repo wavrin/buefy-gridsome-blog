@@ -24,7 +24,7 @@
       </div>
 
       <div class="content">
-        Hell. Put a descriptioin of the author or site here. :)
+        Hello! Put a description of the author or site here. :)
         <br />
       </div>
     </div>
