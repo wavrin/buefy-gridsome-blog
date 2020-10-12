@@ -1,5 +1,5 @@
 <template>
-  <body>
+  <div>
     <section class="section">
       <div class="container">
         <div class="columns is-multiline is-desktop">
@@ -13,7 +13,7 @@
       </div>
     </section>
     <Footer />
-  </body>
+  </div>
 </template>
 
 <static-query>
