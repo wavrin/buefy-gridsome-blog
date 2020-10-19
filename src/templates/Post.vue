@@ -1,27 +1,19 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <div class="columns is-desktop">
-        <div class="column is-one-quarter is-narrow">
-          <AuthorCard />
-        </div>
-        <div class="column">
-          <a class="icon" href="/">
-            <i class="fa fa-arrow-left fa-2x"></i>
-          </a>
-          <h1 class="title">{{ $page.post.title }}</h1>
-          <em>{{ $page.post.date }}</em>
-          <div class="content" v-html="$page.post.content" />
+  <Layout>
+    <a class="icon" href="/">
+      <i class="fa fa-arrow-left fa-2x"></i>
+    </a>
+    <h1 class="title">{{ $page.post.title }}</h1>
+    <em>{{ $page.post.date }}</em>
+    <div class="content" v-html="$page.post.content" />
 
-          <div class="post-comments">
-            <vue-disqus shortname="DISQUSSHORTNAME" :identifier="$page.post.title"></vue-disqus>
-          </div>
-        </div>
-      </div>
+    <div class="post-comments">
+      <vue-disqus
+        shortname="DISQUSSHORTNAME"
+        :identifier="$page.post.title"
+      ></vue-disqus>
     </div>
-    <br />
-    <Footer />
-  </section>
+  </Layout>
 </template>
 
 <script>
@@ -30,7 +22,7 @@ import Footer from "~/components/Footer.vue";
 export default {
   components: {
     AuthorCard,
-    Footer
+    Footer,
   },
   metaInfo() {
     return {
@@ -38,11 +30,11 @@ export default {
       meta: [
         {
           name: "description",
-          content: this.$page.post.description
-        }
-      ]
+          content: this.$page.post.description,
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
