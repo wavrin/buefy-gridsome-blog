@@ -1,17 +1,19 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <div class="columns is-multiline is-desktop">
-        <div class="column is-one-quarter is-narrow">
-          <AuthorCard />
-        </div>
-        <div class="column">
-          <slot />
+  <div>
+    <section class="section">
+      <div class="container">
+        <div class="columns is-multiline is-desktop">
+          <div class="column is-one-quarter is-narrow">
+            <AuthorCard />
+          </div>
+          <div class="column">
+            <slot />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <Footer />
-  </section>
+  </div>
 </template>
 
 <static-query>
@@ -28,7 +30,16 @@ import Footer from "~/components/Footer.vue";
 export default {
   components: {
     AuthorCard,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
+
+<style>
+  #app {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+  }
+</style>
